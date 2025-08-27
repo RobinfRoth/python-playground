@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # Class with iterator
 class IterTest:
     def __init__(self, *values):
