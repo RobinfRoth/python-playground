@@ -25,7 +25,7 @@ if __name__ == "__main__":
         try:
             custom_n_terms: int = int(sys.argv[1])
         except ValueError as e:
-            print("Cannot parse custom number of terms: ", e)
+            print(f"Cannot parse custom number of terms {e}")
             sys.exit(1)
             
         res = calculate_pi(custom_n_terms)
